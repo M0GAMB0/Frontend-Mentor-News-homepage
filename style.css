@@ -15,7 +15,7 @@ header {
 	display: flex;
 	/* border:2px solid red; */
 	width: 100%;
-	padding: 55px 0px;
+	padding: 50px 0px;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -27,7 +27,7 @@ header ul {
 }
 header ul li {
 	list-style: none;
-	margin-left: 20px;
+	margin-left: 40px;
 }
 header ul li a {
 	color: hsl(236, 13%, 42%);
@@ -42,9 +42,9 @@ section {
 }
 
 section .card-new {
-	background-color: hsl(240, 100%, 5%);
-	padding: 40px 25px 20px 25px;
-	width: 76%;
+	background-color: #00001a;
+	padding: 40px 30px 10px 30px;
+	width: 80%;
 	height: 100%;
 	margin-left: 1.8rem;
 }
@@ -63,7 +63,7 @@ section .new-subs {
 }
 section .new-sub {
 	color: hsl(233, 8%, 79%);
-	font-size: 14.5px;
+	font-size: 15px;
 	font-weight: 400;
 	padding: 13px 0 0 0;
 }
@@ -77,8 +77,13 @@ section .left-secRow {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin-top: 1.8rem;
+	border: 2px solid green;
 }
-section span {
-	font-size: 50px;
+section .left-secRow span {
+	font-size: 3.5rem;
 	font-weight: 800;
+	color: #00001a;
+	border: 2px solid black;
+	width: 90%;
 }
