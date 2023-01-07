@@ -146,6 +146,10 @@ section .card-new .new-subs .new-sub {
 	justify-content: space-between;
 	align-items: flex-start;
 	width: 100%;
+	margin-right: 20px;
+}
+.thumbnail ul li:nth-child(3) {
+	margin-right: 0px;
 }
 .thumbnail ul li .caption {
 	display: flex;
@@ -153,7 +157,7 @@ section .card-new .new-subs .new-sub {
 	justify-content: space-between;
 	align-items: flex-start;
 	margin-left: 15px;
-	padding: 0 12px;
+	padding-left: 20px;
 }
 .thumbnail ul li .caption .numbers {
 	font-weight: 700;
