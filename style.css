@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 * {
 	margin: 0;
 	padding: 0;
@@ -56,42 +56,43 @@ section .left .web3mob {
 section .left-secRow {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	margin-top: 2.2rem;
-	/* border: 2px solid green; */
+	align-items: flex-start;
+	margin-top: 2.1rem;
 }
 section .left-secRow span {
-	font-size: 3.5rem;
+	font-size: 3.8rem; /*3.5rem */
 	font-weight: 800;
 	color: #00001a;
 	/* border: 2px solid black; */
 	width: 90%;
+	padding-top: 8px;
 	line-height: 100%;
 }
 section .left-secRow .secRsecC {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	width: 100%;
+	width: 90%;
 	height: 100%;
-	margin-left: 2rem;
+	margin-left: 2rem; /* 2rem */
 }
 section .left-secRow .secRsecC .diveParagh {
 	color: hsl(236, 13%, 42%);
-	font-weight: 400;
-	font-size: 1rem;
-	line-height: 150%;
+	font-weight: 500;
+	font-size: 1rem; /*1rem*/
+	line-height: 140%;
+	padding-right: 10px;
 }
 section .left-secRow .secRsecC .redButton {
 	background-color: hsl(5, 85%, 63%);
 	color: #fff;
 	letter-spacing: 4px;
-	font-weight: 700;
+	font-weight: 800;
 	font-size: 15px;
 	width: 50%;
 	text-align: center;
-	padding: 15px 20px;
-	margin-top: 35px;
+	padding: 20px 20px;
+	margin-top: 45px;
 	text-transform: uppercase;
 	text-decoration: none;
 }
@@ -100,26 +101,28 @@ section .left-secRow .secRsecC .redButton:hover {
 }
 section .card-new {
 	background-color: #00001a;
-	padding: 40px 30px 0px 30px;
-	width: 80%;
+	padding: 45px 25px 0px 25px;
+	width: 78%;
 	height: 100%;
 	margin-left: 1.8rem;
+	border: 2px solid red;
 }
 section .card-new ul li {
 	list-style: none;
 	display: flex;
 	flex-direction: column;
 }
-section .card-new ul li .newMainHead {
+section .card-new ul .newMainHead {
 	color: hsl(35, 77%, 62%);
-	font-size: 2.5rem;
+	font-size: 3rem;
 	font-weight: 700;
 }
 section .card-new .new-subs {
-	padding: 29px 0;
+	padding: 40px 0;
+	border: 2px solid green;
 }
 section .card-new .new-subs .new-subHeading {
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	font-weight: 700;
 	color: #fff;
 	text-decoration: none;
@@ -130,10 +133,10 @@ section .card-new .new-subs .new-subHeading:hover {
 
 section .card-new .new-subs .new-sub {
 	color: hsl(233, 8%, 79%);
-	font-size: 15px;
+	font-size: 17px;
 	font-weight: 400;
 	padding-top: 13px;
-	line-height: 150%;
+	line-height: 160%;
 }
 .thumbnail {
 	margin-top: 4.7rem;
@@ -161,6 +164,7 @@ section .card-new .new-subs .new-sub {
 	align-items: flex-start;
 	margin-left: 15px;
 	padding-left: 20px;
+	padding-right: 25px;
 }
 .thumbnail ul li .caption .numbers {
 	font-weight: 700;
@@ -183,4 +187,9 @@ section .card-new .new-subs .new-sub {
 	font-weight: 400;
 	font-size: 15px;
 	color: hsl(236, 13%, 42%);
+}
+@media only screen and (max-width: 1200px) {
+	.container {
+		border: 2px solid red;
+	}
 }
